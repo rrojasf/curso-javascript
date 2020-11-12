@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="survey-form.css" type="text/css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Survey Form</h1>
+            <div class="form">
+                <h3 class="subtitle">Let us know how we can improve our classes!</h3>
+                <form action="survey-process.html">
+                    <div class="form-container">
+                        <div class="element"><label>Name</label><input type="text" name="name" /></div>
+                        <div class="element"><label>Email</label></label><input type="text" name="email" /></div>
+                        <div class="element"><label>Age</label><input type="number" name="age" /></div>
+                        <div class="element">
+                            <label>Role</label>
+                            <select name="role">
+                                <option>Student</option>
+                            </select>
+                        </div>
+                        <div class="element">
+                            <label>Gender</label>
+                            <ul>
+                                <li><input type="radio" name="gender" id="female" value="female" /><label>Female</label></li>
+                                <li><input type="radio" name="gender" id="male" value="male" /><label>Male</label></li>
+                                <li><input type="radio" name="gender" id="not-sure" value="not-sure" /><label>Not sure</label></li>
+                            </ul>
+                        </div>
+                        <div class="element">
+                            <label>Civil Status*</label>
+                            <select name="other">
+                                <option value="single">Single</option>
+                                <option value="married">Married</option>
+                                <option value="divorced">Divorced</option>
+                            </select>
+                        </div>
+                        <div class="element">
+                        <label>Hobbies</label>
+                            <ul>
+                                <li><input type="checkbox" name="hobbies" id="read" value="read" /><label>Read</label></li>
+                                <li><input type="checkbox" name="hobbies" id="sing" value="sing" /><label>Sing</label></li>
+                                <li><input type="checkbox" name="hobbies" id="dance" value="dance" /><label>Dance</label></li>
+                            </ul>
+                        </div>
+                        <input type="submit" value="Send" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

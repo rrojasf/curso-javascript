@@ -1,0 +1,13 @@
+img {
+    width: 250px;
+    height: 250px;
+}
+
+table, tr, td {
+    border-collapse: separate;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 5px;
+}

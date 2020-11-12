@@ -1,0 +1,43 @@
+body {
+    font-family: 'Itim', cursive;
+}
+
+header, footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+nav {
+    float: right;
+    background-color: thistle;
+}
+
+.content {
+    background-color: teal;
+}
+
+article {
+    margin: 25px
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+body {
+    background-color: red;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+body {
+    background-color: yellowgreen;
+  }
+}

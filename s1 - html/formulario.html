@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Formulario</title></head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Datos Generales</legend>
+                <label>Nombre</label>
+                <input type="text" name="nombre" />
+                <label>Apellido</label>
+                <input type="text" name="apellido" />
+            </fieldset>
+            <fieldset>
+                <legend>Datos Demograficos</legend>
+                <label>Sexo</label>
+                <br />
+                <label>Masculino</label><input type="radio" name="sexo" value="m" />
+                <label>Femenino</label><input type="radio" name="sexo" value="f" />
+                <br />
+                <label>Estado Civil</label>
+                <select>
+                    <option>Casado</option>
+                    <option>Soltero</option>
+                    <option>Union Libre</option>
+                    <option>Viudo</option>
+                    <option>Indefinido</option>
+                </select>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>

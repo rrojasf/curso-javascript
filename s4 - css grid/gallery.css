@@ -1,0 +1,83 @@
+body {
+    background-color: #eee;
+}
+.grid-2-2 {
+    display: grid;
+    grid-template-columns: 90px 90px;
+    grid-template-rows: minmax(100px, 200px);
+}
+.grid-3-3 {
+    display: grid;
+    grid-template-columns: 90px 150px 90px;
+    grid-template-rows: 90px 75px 90px;
+}
+.grid-element {
+    background-color: thistle;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+}
+
+/** Menu */
+ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: thistle;
+    margin: 0;
+    padding: 0;    
+}
+li {
+    float: left;
+    padding:10px;
+    text-align: center;    
+}
+li:hover {
+    color: white;
+    background-color: tan;
+}
+p {
+    background-color: turquoise;
+}
+h1 {
+    background-color: teal;
+    margin-top: 50px;
+}
+
+/** floating boxes */
+.left {
+    float: left;
+    background-color: tomato;
+    width: 100px;
+    height: 180px;
+}
+.right {
+    float: right;
+    background-color: green;
+    width: 100px;
+    height: 250px;    
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: yellowgreen;
+    }
+}
+@media only screen and (max-width: 972px) {
+    body {
+      background-color: blue;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    body {
+      background-color: brown;
+    }
+}

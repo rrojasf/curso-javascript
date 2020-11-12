@@ -1,0 +1,55 @@
+body {
+    background-color: #eee;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton {
+    padding: 14px 20px;
+    margin: 8px;
+    border: 1px solid #123;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"] {
+    background-color: darkgrey;
+}
+
+input[type="submit"] {
+    background-color: darkgrey;
+    color: white;
+}
+
+.boton:hover {
+    background-color: darkslategray;
+    color: white;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-left: 0px;
+}
+
+li {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+}

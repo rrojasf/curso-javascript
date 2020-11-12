@@ -1,0 +1,188 @@
+/* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}*/
+body {
+    font-family: 'Itim', cursive;
+}
+
+header, footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color:white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+ 
+#check {
+    display: none;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+.menu {
+    background: #0082e6;
+    height: 80px;
+    line-height: 80px;
+}
+
+.menu ul {
+    float: right;
+    margin-right: 20px;
+} 
+
+.menu ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+} 
+
+.menu ul li a {
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu ul li a.active, .menu ul li a:hover { 
+    color: #1b9bff;
+    background-color: #69beef; 
+    transition: .5s;
+}
+
+/* .menu li {
+    display: inline;
+    margin-right: 15px;
+    height: 80px;
+    width: 100%;
+    font-weight: bold;
+    padding: 0 10px;
+}*/
+
+.sidebar {
+    clear: both;
+    margin: 25px;
+    padding: 15px;
+    float: right;
+    background-color: thistle;
+}
+
+.content {
+    background-color: teal;
+}
+
+article {
+    margin: 25px
+}
+
+section {
+    background: url() no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+/* Media Queries */
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }    
+} 
+
+@media only screen and (max-width: 750px) {
+    .checkbtn {
+        display: block;
+    }
+    .menu {
+        background-color: hotpink;
+        width: 100%;
+    }
+    .menu ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: 0;
+        text-align: center;
+        display: none;
+    }
+    .menu ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .menu ul li a {
+        font-size: 20px;
+    }
+    a.active, a:hover {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }    
+    .sidebar {
+        display: none;
+    }
+    article {
+        background-color: grey;
+    }    
+    article img {
+        width: 420px;
+    }
+    .left {
+        width: 100%;
+        background-color: red;
+    }
+    .right {
+        width: 100%;
+        background-color: violet;
+    }      
+} 
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    body {
+        background-color: red;
+    }
+}
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    body {
+        background-color: yellowgreen;
+    }
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+    }
+
+    .menu ul li a {
+        font-size: 16px;
+    }
+}

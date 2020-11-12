@@ -1,0 +1,48 @@
+body {
+    color: #aaffee;
+    background-color: #FFF
+}
+
+p {
+    color: #452571
+}
+
+div {
+    color: #968574;
+}
+
+#p2 {
+    color: red;
+}
+
+#p3 {
+    color: green;
+}
+
+.class1 {
+    background-color: brown;
+}
+
+.einline {
+    /* margin: 25px 15px 5px 80px; */
+    margin-top: 50px;
+    margin-left: 35px;
+    padding-top: 20px;
+}
+
+table {
+    width: 100%;
+    border: 1px  solid #ddd;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
